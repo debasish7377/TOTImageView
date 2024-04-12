@@ -17,7 +17,16 @@ dependencies {
 	        implementation 'com.github.debasish7377:TOTImageView:1.0'
 	}
 ```
->TOTImageView implementation
+
+ > Step 3. Add internet permission in manifest file
+
+```Permission
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+```
+
+> Step 3. TOTImageView implementation
 
 ``` Toast implementation
 
